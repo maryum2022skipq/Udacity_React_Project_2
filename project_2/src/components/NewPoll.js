@@ -38,6 +38,7 @@ const NewPoll = (props) => {
             <input
               className="new_poll_input"
               type="text"
+              data-testid="optionOne"
               placeholder="Option 1"
               onChange={(e) => {
                 setOptionOne(e.target.value);
@@ -51,6 +52,7 @@ const NewPoll = (props) => {
             <input
               className="new_poll_input"
               type="text"
+              data-testid="optionTwo"
               placeholder="Option 2"
               onChange={(e) => {
                 setOptionTwo(e.target.value);
@@ -61,6 +63,7 @@ const NewPoll = (props) => {
         <input
           type="submit"
           value="Submit"
+          data-testid="submit_poll"
           disabled={isDisabled}
           className="btn"
           onClick={handleSubmit}

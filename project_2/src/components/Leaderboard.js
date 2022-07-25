@@ -5,14 +5,18 @@ const Leaderboard = (props) => {
   return (
     <div>
       <Navbar />
-      <div className="leaderboard_table_container">
+      <div
+        className="leaderboard_table_container"
+        data-testid="leaderboard_table"
+      >
         <table>
-          <thead>
-            <th>Users</th>
-            <th>Answered</th>
-            <th>Created</th>
-          </thead>
           <tbody>
+            <tr>
+              <th>Users</th>
+              <th>Answered</th>
+              <th>Created</th>
+            </tr>
+
             {props.countList.map((user) => {
               return (
                 <tr key={user.id}>

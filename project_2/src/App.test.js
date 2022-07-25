@@ -102,7 +102,7 @@ describe("a snapshot test for login component", () => {
   });
 });
 
-describe("a DOM query test ", () => {
+describe("a DOM query test for login component", () => {
   test("verify that login component renders dropdown menu to select user", () => {
     const component = render(
       <Provider store={store} dispatch={store.dispatch}>
@@ -114,6 +114,40 @@ describe("a DOM query test ", () => {
 
     var user = component.getByTestId("login_select");
     expect(user).toBeInTheDocument();
+  });
+});
+
+describe("a DOM query test for Leaderboard component", () => {
+  test("verify that Leaderboard component renders Leaderboard users table showing created and answered polls", () => {
+    const component = render(
+      <Provider store={store} dispatch={store.dispatch}>
+        <BrowserRouter>
+          <Leaderboard />
+        </BrowserRouter>
+      </Provider>
+    );
+
+    var user = component.getByTestId("leaderboard_table");
+    expect(user).toBeInTheDocument();
+  });
+});
+
+describe("a DOM query test for NewPoll component", () => {
+  test("verify that NewPoll component renders input options where user can type options and submit form", () => {
+    const component = render(
+      <Provider store={store} dispatch={store.dispatch}>
+        <BrowserRouter>
+          <NewPoll />
+        </BrowserRouter>
+      </Provider>
+    );
+
+    var optionOne = component.getByTestId("optionOne");
+    var optionTwo = component.getByTestId("optionTwo");
+    var submit_poll = component.getByTestId("submit_poll");
+    expect(optionOne).toBeInTheDocument();
+    expect(optionTwo).toBeInTheDocument();
+    expect(submit_poll).toBeInTheDocument();
   });
 });
 
