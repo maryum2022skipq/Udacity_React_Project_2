@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`a snapshot test for app component verify that app component renders properly and matches with the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          style="direction: ltr;"
+        >
+          <div
+            class=""
+            style="width: 0%; transition: width 800ms linear 0s; will-change: width, opacity; height: 3px; background-color: red; position: absolute; opacity: 0;"
+          />
+          <div
+            style="display: table; clear: both;"
+          />
+        </div>
+        <div>
+          <h1>
+            Employee Polls
+          </h1>
+          <img
+            alt="loginPage"
+            src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+          />
+          <h2>
+            Login
+          </h2>
+          <div>
+            <h4>
+              User
+            </h4>
+            <select
+              data-testid="login_select"
+            >
+              <option
+                disabled=""
+                selected=""
+                value="none"
+              >
+                Select User
+              </option>
+            </select>
+          </div>
+          <input
+            class="btn"
+            data-testid="login_submit"
+            disabled=""
+            type="submit"
+            value="LOGIN"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        style="direction: ltr;"
+      >
+        <div
+          class=""
+          style="width: 0%; transition: width 800ms linear 0s; will-change: width, opacity; height: 3px; background-color: red; position: absolute; opacity: 0;"
+        />
+        <div
+          style="display: table; clear: both;"
+        />
+      </div>
+      <div>
+        <h1>
+          Employee Polls
+        </h1>
+        <img
+          alt="loginPage"
+          src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+        />
+        <h2>
+          Login
+        </h2>
+        <div>
+          <h4>
+            User
+          </h4>
+          <select
+            data-testid="login_select"
+          >
+            <option
+              disabled=""
+              selected=""
+              value="none"
+            >
+              Select User
+            </option>
+          </select>
+        </div>
+        <input
+          class="btn"
+          data-testid="login_submit"
+          disabled=""
+          type="submit"
+          value="LOGIN"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`a snapshot test for login component verify that login component renders properly and matches with the snapshot  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h1>
+          Employee Polls
+        </h1>
+        <img
+          alt="loginPage"
+          src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+        />
+        <h2>
+          Login
+        </h2>
+        <div>
+          <h4>
+            User
+          </h4>
+          <select
+            data-testid="login_select"
+          >
+            <option
+              disabled=""
+              selected=""
+              value="none"
+            >
+              Select User
+            </option>
+          </select>
+        </div>
+        <input
+          class="btn"
+          data-testid="login_submit"
+          disabled=""
+          type="submit"
+          value="LOGIN"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h1>
+        Employee Polls
+      </h1>
+      <img
+        alt="loginPage"
+        src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+      />
+      <h2>
+        Login
+      </h2>
+      <div>
+        <h4>
+          User
+        </h4>
+        <select
+          data-testid="login_select"
+        >
+          <option
+            disabled=""
+            selected=""
+            value="none"
+          >
+            Select User
+          </option>
+        </select>
+      </div>
+      <input
+        class="btn"
+        data-testid="login_submit"
+        disabled=""
+        type="submit"
+        value="LOGIN"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
